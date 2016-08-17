@@ -45,14 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDataSet.cs">
-      <DependentUpon>BaseDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BaseDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BaseDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="MainData.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -74,17 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="BaseDataSet.xsc">
-      <DependentUpon>BaseDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BaseDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BaseDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BaseDataSet.xss">
-      <DependentUpon>BaseDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

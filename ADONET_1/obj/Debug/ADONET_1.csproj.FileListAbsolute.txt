@@ -7,3 +7,6 @@ D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1
 D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.csproj.GenerateResource.Cache
 D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.exe
 D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.pdb
+D:\Projects\ADONET1\ADONET_1\bin\Debug\ADONET_1.exe.config
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.exe
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.pdb
