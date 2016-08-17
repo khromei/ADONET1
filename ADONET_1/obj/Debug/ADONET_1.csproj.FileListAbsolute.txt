@@ -10,3 +10,17 @@ D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1
 D:\Projects\ADONET1\ADONET_1\bin\Debug\ADONET_1.exe.config
 D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.exe
 D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.pdb
+D:\Projects\ADONET1\ADONET_1\bin\Debug\ADONET_1.exe
+D:\Projects\ADONET1\ADONET_1\bin\Debug\ADONET_1.pdb
+D:\Projects\ADONET1\ADONET_1\bin\Debug\EntityFramework.dll
+D:\Projects\ADONET1\ADONET_1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ADONET1\ADONET_1\bin\Debug\System.Data.SQLite.dll
+D:\Projects\ADONET1\ADONET_1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\ADONET1\ADONET_1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\ADONET1\ADONET_1\bin\Debug\EntityFramework.xml
+D:\Projects\ADONET1\ADONET_1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ADONET1\ADONET_1\bin\Debug\System.Data.SQLite.xml
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.csprojResolveAssemblyReference.cache
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.MainForm.resources
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.Properties.Resources.resources
+D:\Projects\ADONET1\ADONET_1\obj\Debug\ADONET_1.csproj.GenerateResource.Cache
