@@ -1,0 +1,9 @@
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\bin\Debug\ADONET_1.exe.config
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\bin\Debug\ADONET_1.exe
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\bin\Debug\ADONET_1.pdb
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.csprojResolveAssemblyReference.cache
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.MainForm.resources
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.Properties.Resources.resources
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.csproj.GenerateResource.Cache
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.exe
+D:\Work\VisualStudioProjects\20160817ADONET\ADONET_1\ADONET_1\obj\Debug\ADONET_1.pdb
