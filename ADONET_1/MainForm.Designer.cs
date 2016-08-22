@@ -41,12 +41,12 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(25, 28);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(486, 296);
+            this.dataGridView1.Size = new System.Drawing.Size(368, 296);
             this.dataGridView1.TabIndex = 0;
             // 
             // button_Fill
             // 
-            this.button_Fill.Location = new System.Drawing.Point(532, 28);
+            this.button_Fill.Location = new System.Drawing.Point(417, 28);
             this.button_Fill.Name = "button_Fill";
             this.button_Fill.Size = new System.Drawing.Size(110, 23);
             this.button_Fill.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // button_Update
             // 
-            this.button_Update.Location = new System.Drawing.Point(532, 57);
+            this.button_Update.Location = new System.Drawing.Point(417, 57);
             this.button_Update.Name = "button_Update";
             this.button_Update.Size = new System.Drawing.Size(110, 23);
             this.button_Update.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button_ExportXML
             // 
-            this.button_ExportXML.Location = new System.Drawing.Point(532, 86);
+            this.button_ExportXML.Location = new System.Drawing.Point(417, 86);
             this.button_ExportXML.Name = "button_ExportXML";
             this.button_ExportXML.Size = new System.Drawing.Size(110, 23);
             this.button_ExportXML.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             // button_ImportXML
             // 
-            this.button_ImportXML.Location = new System.Drawing.Point(532, 115);
+            this.button_ImportXML.Location = new System.Drawing.Point(417, 115);
             this.button_ImportXML.Name = "button_ImportXML";
             this.button_ImportXML.Size = new System.Drawing.Size(110, 23);
             this.button_ImportXML.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 352);
+            this.ClientSize = new System.Drawing.Size(546, 364);
             this.Controls.Add(this.button_ImportXML);
             this.Controls.Add(this.button_ExportXML);
             this.Controls.Add(this.button_Update);

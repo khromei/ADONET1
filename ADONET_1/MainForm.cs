@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace ADONET_1
 {
-    public partial class MainForm : Form
+    public partial class MainForm : Form 
     {
         public MainForm()
         {
@@ -19,12 +20,13 @@ namespace ADONET_1
 
         private void button_Fill_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Fill button Click");
+            FillGrid();
         }
 
         private void button_Update_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Update button Click");
+            XmlOut();
+
         }
 
         private void button_EX_Click(object sender, EventArgs e)
@@ -36,6 +38,43 @@ namespace ADONET_1
         {
             MessageBox.Show("IM button Click");
         }
+
+
+
+
+        void XmlOut()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection("Data Source=base.sqlite;Version=3;"))
+            {
+                conn.Open();
+                using (SQLiteDataAdapter adapter = new SQLiteDataAdapter("Select Id, Name, Weight, Type from [Animals]", conn))
+                {
+                    DataTable tbl = new DataTable();
+                    adapter.Fill(tbl);
+                    DataSet ds = new DataSet();
+                    ds.Tables.Add(tbl);
+                    ds.WriteXml(@"D:\\MyDataset.xml");
+                }
+
+            }
+        }
+
+
+        void FillGrid()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection("Data Source=base.sqlite;Version=3;"))
+            {
+                conn.Open();
+                using (SQLiteDataAdapter a = new SQLiteDataAdapter("Select Id, Name, Weight, Type from [Animals]", conn))
+                {
+                    DataTable t = new DataTable();
+                    a.Fill(t);
+                    dataGridView1.DataSource = t;
+                }
+            }
+        }
+
+
     }
 
 }
